@@ -1,0 +1,94 @@
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/icon.png">
+    <title>FormPage</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="media/undraw_walking_outside_re_56xo.svg">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Register</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Log In</a></button>
+                    </div>
+                </div>
+    
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">First name</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="enter your first name" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="lastname">Last name</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="enter your last name" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email" placeholder="type your e-mail" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="number">Phone number</label>
+                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input id="password" type="password" name="password" placeholder="type your password" required>
+                    </div>
+    
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirm your password</label>
+                        <input id="confirmpassword" type="password" name="confirmpassword" placeholder="type your password again" required>
+                    </div>
+                </div>
+    
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Genre</h6>
+                    </div>
+    
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input type="radio" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input type="radio" id="others" name="gender">
+                            <label for="others">Other</label>
+                        </div>
+    
+                        <div class="gender-input">
+                            <input type="radio" id="none" name="gender">
+                            <label for="others">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="continue-button">
+                    <button><a href="#">Continue</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
